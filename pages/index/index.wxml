@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container {{show?'container1':'container2'}}" bindtap='opcraty'>
+   <h1 id="h1" binktap='oncli' style='opcraty:0' class="{{show?'':'h2'}}">纵纵小宝贝我们在一起已经:\n{{day}}天{{hour}}小时{{ minute}}分{{second}}秒了\n<text>一时间不知道从哪说起,我只知道我真的超级喜欢你。\n不管面临多大的压力,不管前面的路如何崎岖.\n不管经历过什么,我仍坚信最浪漫的事就是和你一起慢慢变老.\n相信中间的计时器,将永远继续下去,直至数据溢出.爱你</text></h1>
+  <canvas canvas-id='canvas'  style='width:{{canvasWidth}}px; height:{{canvasHeight}}px'   ></canvas>
+</view>

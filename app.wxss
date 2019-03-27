@@ -1,0 +1,20 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
+.container1{
+background:pink;
+}
+.container2{
+  transition: 1.4s;
+  background:none;
+}
+.h2{
+  transform: 1.4s;
+  font-size: 0;
+}

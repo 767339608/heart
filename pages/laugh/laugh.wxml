@@ -1,0 +1,5 @@
+<!--client/pages/laugh/laugh.wxml-->
+  <view  wx:for="{{textJsonList}}" wx:if='{{textJsonList}}' wx:key='{{item}}' class='textlist'>
+  <text></text>
+  <text>{{item.content}}</text>
+  </view>

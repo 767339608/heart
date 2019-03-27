@@ -1,0 +1,8 @@
+/* client/pages/laugh/laugh.wxss */
+.textlist{
+  box-sizing: border-box;
+  padding: 20rpx 0;
+  font-size: 22rpx;
+  border-bottom: 1rpx solid pink;
+  padding-left: 20rpx;
+}

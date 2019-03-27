@@ -1,0 +1,21 @@
+    body {
+      overflow: hidden;
+      margin: 0;
+    }
+
+    h1 {
+      position: fixed;
+      top: 40%;
+      left: 1;
+      width: 445rpx;
+      text-align: center;
+      transform: translateY(-50%);
+      font-family: 'Love Ya Like A Sister', cursive;
+      font-size: 40rpx;
+      color: #c70012;
+      padding: 0 20rpx;
+    }
+
+    h1 span {
+      font-size: 20rpx;
+    }
